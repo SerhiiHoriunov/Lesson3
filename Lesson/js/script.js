@@ -28,9 +28,9 @@
 //   console.log("a", a);
 // }
 
-// let a = 0;
+let a = 0;
 
-// while (a) console.log(a--);
+while (a) console.log(a--);
 
 // do while
 
@@ -72,7 +72,7 @@
 // --------------------------//
 // --------------------------//
 
-// let arr = ["Apple", "Orange", "Plum"];
+let arr = ["Apple", "Orange", "Plum"];
 
 // arr[2] = "Lemon";
 
@@ -160,16 +160,16 @@
 
 // console.log(arr.includes("c"));
 
-// const fruts = [
-//   { id: 0, name: "Apple" },
-//   { id: 1, name: "Tomat" },
-//   { id: 2, name: "Cherry" },
-//   { id: 3, name: "Orange" },
-// ];
+const fruts = [
+  { id: 0, name: "Apple" },
+  { id: 1, name: "Tomat" },
+  { id: 2, name: "Cherry" },
+  { id: 3, name: "Orange" },
+];
 
 // console.log(fruts.find((item) => item.id === 1));
 
-// console.log(fruts.filter((item) => item.id < 2));
+console.log(fruts.filter((item) => item.id < 2));
 
 // map
 
